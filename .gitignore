@@ -1,0 +1,14 @@
+# Archivos compilados
+bin/
+out/
+*.class
+
+# Datos personales del usuario (se crean al ejecutar)
+datos/
+
+# IDEs
+.idea/
+*.iml
+.settings/
+.classpath
+.project
