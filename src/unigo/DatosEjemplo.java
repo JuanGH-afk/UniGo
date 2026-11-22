@@ -58,7 +58,7 @@ public class PanelGuia extends PanelBase {
         add(barra, BorderLayout.SOUTH);
         refrescar();
     }
-
+    
     @Override
     public void refrescar() {
         for (int i = 0; i < casillas.size(); i++) casillas.get(i).setSelected(ctx.guia.hecho(i));
