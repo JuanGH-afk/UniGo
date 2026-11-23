@@ -7,6 +7,7 @@ import java.util.List;
 /** Datos compartidos por toda la interfaz: modelo, persistencia y refresco de los paneles. */
 public class Contexto {
     public final Organizador org = new Organizador();
+    
     public final Campus campus = new Campus();
     public final GuiaNuevo guia = new GuiaNuevo();
     private final Almacen almacen = new Almacen("datos/unigo.txt");
