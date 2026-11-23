@@ -35,6 +35,7 @@ public class Almacen {
         if (archivo.getParent() != null) Files.createDirectories(archivo.getParent());
         Path temporal = Paths.get(archivo + ".tmp");
         Files.write(temporal, lineas, StandardCharsets.UTF_8);
+        
         Files.move(temporal, archivo, StandardCopyOption.REPLACE_EXISTING);
     }
 
