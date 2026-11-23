@@ -12,6 +12,7 @@ public final class DatosCampus {
         campus.agregar(new Edificio("Bloque B",
                 "Salones de clase. En el piso 1 hay una cafeteria.",
                 6, "del piso 2 al 6, hasta el 10 u 11 aprox. (ejemplo: B205 = piso 2, salon 05)"));
+        
         campus.agregar(new Edificio("Bloque C",
                 "Salones de clase. En el piso 5 hay una cafeteria.",
                 6, "del piso 2 al 6, hasta el 10 u 11 aprox. (ejemplo: C204 = piso 2, salon 04)"));
